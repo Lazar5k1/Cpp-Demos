@@ -1,0 +1,6 @@
+---LIST OF VOCAB WORDS FOR PROGRAMMING---
+
+Explicit - Done by the programmer i.e. written code
+
+Implicit - Done by the program or tool i.e. inherent features of a program or language like classes and data types
+
