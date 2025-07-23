@@ -4,3 +4,4 @@ Explicit - Done by the programmer i.e. written code
 
 Implicit - Done by the program or tool i.e. inherent features of a program or language like classes and data types
 
+static_cast<desired data type>(source) - there's shorthand for this but for now just use it to change data types i.e. static_cast<int>(3.5) == 3
