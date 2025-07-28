@@ -1,9 +1,20 @@
 ---LIST OF VOCAB WORDS FOR PROGRAMMING---
 
-Explicit - Done by the programmer i.e. written code
+Explicit
+Done by the programmer i.e. written code
 
-Implicit - Done by the program or tool i.e. inherent features of a program or language like classes and data types
 
-static_cast<desired data type>(source) - there's shorthand for this but for now just use it to change data types i.e. static_cast<int>(3.5) == 3
+Implicit
+Done by the program or tool i.e. inherent features of a program or language like classes and data types
 
-:: - "::" iss the scope resolution operator i.e. cout is a function within the std library so to use cout you sspecify std::cout.
+
+static_cast<desired data type>(source)
+there's shorthand for this but for now just use it to change data types i.e. static_cast<int>(3.5) == 3
+
+
+::
+"::" iss the scope resolution operator i.e. cout is a function within the std library so to use cout you sspecify std::cout.
+
+
+namespace
+namespace lets you use the scope resolution operator to reuse entity names (refer to namespace-demo.cpp to understand fully)
