@@ -18,3 +18,10 @@ there's shorthand for this but for now just use it to change data types i.e. sta
 
 namespace
 namespace lets you use the scope resolution operator to reuse entity names (refer to namespace-demo.cpp to understand fully)
+
+
+typedef
+used to make an alias of another datatype. Helps improve readability and reduce typos. In the community it has been replaced with 'using'
+
+using
+not exactly ssure yet.
