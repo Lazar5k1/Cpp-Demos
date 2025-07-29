@@ -2,7 +2,7 @@
 //  Author:         Nicholas Gill                             //
 //  Start Date:     07/28/2025                                //
 //  File Name:      arithmetic-demo.cpp                       //
-//  Version:        1.0.0                                     //
+//  Version:        1.1.0                                     //
 //  Description:    shows general functionality of arithmetic //
 //  operators                                                 //
 //************************************************************//
@@ -58,6 +58,7 @@ int main(){
     std::cout << std::endl << "bullets/2 = " <<  bullets % 2;
 //even vs odd
 
+
 //order of precedence
 //parenthesis
 //multiplication and division
@@ -68,8 +69,11 @@ int main(){
 //seen as 7 + -(8 / 2) + 4 = 7, not 7 + -((8 / 2) + 4) = -1
     int num1 = 1 / 2;
 //truncate
+    int num2 = 8 / 4 * 2;
+//C++ sees multiplication and division on the same level and goes from left to right
     std::cout << "\n" << "7 - 8 / 2 + 3 * 4 = " << num0;
-    std::cout << "\n" << "1 / 2" << num1;
+    std::cout << "\n" << "1 / 2 = " << num1;
+    std::cout << "\n" << "8 / 4 * 2 = " << num2;
 
 
     return 0;
