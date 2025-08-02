@@ -1,7 +1,6 @@
 //************************************************************//
 //  Author:         Nicholas Gill                             //
 //  Start Date:     07/29/2025                                //
-//  File Name:      hypotenuse.cpp                            //
 //  Version:        1.0.0                                     //
 //  Description:    takes user input to name a triangle and   //
 //  calculate its hypotenuse                                  //
