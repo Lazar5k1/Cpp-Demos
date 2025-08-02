@@ -1,7 +1,7 @@
 //************************************************************//
 //  Author:         Nicholas Gill                             //
 //  Start Date:     07/23/2025                                //
-//  Version:        1.0.0                                     //
+//  Version:        1.1.0                                     //
 //  Description:    Lists out all ascii characters in a loop  //
 //************************************************************//
 
@@ -12,7 +12,8 @@ int main(){
     int i = 0;
 
     for(i = 0; i < 128; i++){
-        std::cout << "ASCII value of " << static_cast<char>(i) << " = " << i << "\n";
+        std::cout << "ASCII value of " << (char) i << " = " << i << "\n";
+//                                        use this instead of staticcast cuz its easier
     }
 
     return 0;
