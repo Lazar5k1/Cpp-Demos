@@ -16,8 +16,8 @@ int main(){
 
     std::cout << "Enter triangle name: ";
     std::getline(std::cin >> std::ws, name);
-//getline gets everything up until '\n' including spaces while cin doesn;t take any whitespaces
-//cin >> std::ws does something
+//getline gets everything up until '\n' including spaces while cin doesn't take any whitespaces
+//cin >> std::ws eliminates any whitespaces in the buffer before getline() takes any input
     std::cout << "Enter side a: ";
     std::cin >> a;
     std::cout << "Enter side b: ";
